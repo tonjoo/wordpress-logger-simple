@@ -87,4 +87,3 @@ class WordpressLogger {
 }
 global $wp_logger;
 $wp_logger = new WordpressLogger();
-$wp_logger->logMessage("tess");
