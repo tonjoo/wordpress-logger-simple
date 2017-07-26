@@ -67,7 +67,7 @@ class WordpressLogger {
 				<?php
 				if (is_file($this->file)) {
 					$filearray = file($this->file);
-					$lastlines = array_slice($filearray, -100);
+					$lastlines = array_slice($filearray, -1000);
 					$reversed = array_reverse($lastlines);
 				}
 					$content = '';
